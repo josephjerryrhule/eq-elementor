@@ -13,6 +13,7 @@
 
 namespace EQELEMENTOR\ElementorWidgets;
 
+use EQELEMENTOR\ElementorWidgets\Widgets\form_slider;
 use EQELEMENTOR\ElementorWidgets\Widgets\slider;
 
 if (!defined('ABSPATH')) {
@@ -60,9 +61,11 @@ final class eq_elementor_widget
 
     //Require Widgets
     require_once __DIR__ . '/widgets/slider.php';
+    require_once __DIR__ . '/widgets/form-slider.php';
 
     //Instantiate Widgets
     $widgets_manager->register(new slider());
+    $widgets_manager->register(new form_slider());
   }
 }
 
