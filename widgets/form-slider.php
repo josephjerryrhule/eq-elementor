@@ -64,9 +64,9 @@ class form_slider extends Widget_Base
       <?php foreach ($formgallery as $index => $image) :
         $current++;
       ?>
-        <div class="w-full h-full eq-ciel-form-gallery-item transition-opacity duration-300 ease-in-out absolute top-0 z-0 <?php if ($current == 1) : echo 'opacity-100';
-                                                                                                                            else : echo 'opacity-0';
-                                                                                                                            endif; ?>">
+        <div class="w-full h-full eq-ciel-form-gallery-item transition-opacity duration-300 ease-in-out absolute top-0 z-0 <?php echo 'form-gallery-slide-item-' . $current . ''; ?> <?php if ($current == 1) : echo 'opacity-100';
+                                                                                                                                                                                      else : echo 'opacity-0';
+                                                                                                                                                                                      endif; ?>">
 
           <img src="<?php echo esc_url($image['url']); ?>" alt="Gallery Image Item" class="w-full !h-full object-cover">
         </div>

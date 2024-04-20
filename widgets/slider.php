@@ -169,7 +169,7 @@ class slider extends Widget_Base
           </div>
 
           <div class="w-full description-area md:pt-[234px] md:pl-[417px] md:pr-5" id="eq-ciel-description-area">
-            <div class="max-w-full md:max-w-[410px] text-white text-base font-medium leading-[21.6px] pb-[79px]">
+            <div class="max-w-full md:max-w-[410px] text-white text-base font-normal leading-[21.6px] pb-[79px]">
               <p>
                 <?php echo __($description, 'eqelementor'); ?>
               </p>
