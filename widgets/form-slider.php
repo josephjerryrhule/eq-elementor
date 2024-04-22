@@ -75,7 +75,7 @@ class form_slider extends Widget_Base
       endforeach; ?>
 
       <div class="w-full flex items-end justify-end absolute bottom-[30px] right-[30px] z-2">
-        <div class="eq-cielform-slider-nav-area flex items-center justify-center border border-[#FFFFFF66] rounded-[500px] w-[136px] h-[136px] group transition-all duration-300 ease-in-out hover:bg-white bg-transparent text-white hover:text-[#123FA1] cursor-pointer right-0">
+        <div class="eq-cielform-slider-nav-area flex items-center justify-center border border-black rounded-[500px] w-[136px] h-[136px] group transition-all duration-300 ease-in-out hover:bg-white bg-transparent text-black hover:text-[#123FA1] cursor-pointer right-0">
 
           <span class="eqform-prev-gallery-button transition-transform duration-300 ease-in-out translate-x-0 hover:-translate-x-[5px]">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
