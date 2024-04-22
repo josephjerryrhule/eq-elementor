@@ -68,7 +68,7 @@ class form_slider extends Widget_Base
                                                                                                                                                                                       else : echo 'opacity-0';
                                                                                                                                                                                       endif; ?>">
 
-          <img src="<?php echo esc_url($image['url']); ?>" alt="Gallery Image Item" class="w-full !h-full object-cover">
+          <img src="<?php echo esc_url($image['url']); ?>" alt="Gallery Image Item" class="w-full !h-full object-contain">
         </div>
 
       <?php
