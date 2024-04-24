@@ -33,18 +33,19 @@ class slider extends Widget_Base
     return ['eq-elementor', 'basic'];
   }
 
-  /*  public function get_style_depends(){
+  public function get_style_depends()
+  {
     wp_register_style('eq-elementor-style', plugins_url('scss/eq-style.css', __FILE__));
 
     return ['eq-elementor-style'];
-  } */
+  }
 
-  public function get_script_depends()
+  /*   public function get_script_depends()
   {
     wp_register_script('eq-tailwind', 'https://cdn.tailwindcss.com');
 
     return ['eq-elementor-script', 'eq-tailwind'];
-  }
+  } */
 
   public function register_controls()
   {
